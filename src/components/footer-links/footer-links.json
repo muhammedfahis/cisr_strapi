@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_links_footer_links",
+  "info": {
+    "displayName": "footer_links"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

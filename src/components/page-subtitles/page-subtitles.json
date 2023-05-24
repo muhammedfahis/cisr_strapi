@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_subtitles_page_subtitles",
+  "info": {
+    "displayName": "page_subtitles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

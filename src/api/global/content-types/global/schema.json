@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "name": "global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "defaultSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "title_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_address_email_phone": {
+      "type": "richtext"
+    },
+    "title_image_individual": {
+      "displayName": "title_image",
+      "type": "component",
+      "repeatable": true,
+      "component": "title-image.title-image"
+    },
+    "footer_sub": {
+      "type": "string"
+    },
+    "footer_links": {
+      "displayName": "footer_links",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-links.footer-links"
+    },
+    "page_subtitles": {
+      "displayName": "page_subtitles",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-subtitles.page-subtitles"
+    },
+    "research_paper_title": {
+      "type": "string"
+    },
+    "research_project_title": {
+      "type": "string"
+    }
+  }
+}
