@@ -5,7 +5,7 @@ services:
     restart: always
     build: .
     ports:
-      - 80:${PORT}
+      - ${PORT}:${PORT}
     depends_on:
       - db
     volumes:
