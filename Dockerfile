@@ -1,8 +1,9 @@
-FROM node:14.19.1
+FROM node:16.20.0
 
 WORKDIR /var/nodeapp
 
 COPY ./package.json ./
+RUN npm install -g npm@9.6.7
 
 RUN npm install
 
