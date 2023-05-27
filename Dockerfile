@@ -6,7 +6,7 @@ COPY ./package.json ./
 
 RUN npm install
 
-RUN npm install -g pm2
+RUN npm run build
 
 COPY ./ ./
 
